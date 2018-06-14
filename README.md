@@ -1,7 +1,7 @@
 # Tinyhttpd
 
 Tinyhttpd学习加注释；
-参考：cbsheng/tinyhttpd、EZLippi/Tinyhttpd
+参考：cbsheng/tinyhttpd、EZLippi/Tinyhttpd;
 
 以下内容来自源作者:
 
