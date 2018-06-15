@@ -7,7 +7,7 @@ Tinyhttpd学习加注释；
 
 客户端<---->服务器<---->cgi程序；在Tinyhttpd中，是在服务器程序中打开一个子进程，来exec相应的cgi程序。具体处理可查看Tinyhttpd的程序，以及印象笔记里面相关的blog。
 
-    liaohua
+                                                                                                                              liaohua
 
 以下内容来自源作者:
 
