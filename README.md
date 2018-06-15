@@ -3,7 +3,9 @@
 Tinyhttpd学习加注释；
 参考：cbsheng/tinyhttpd、EZLippi/Tinyhttpd;
 
-首先就是服务器的理解：运行服务器程序，是一个数据库；比如Tinyhttpd里面及只有一个网页可以访问index.html;但是你同样可以在这个服务器中添加自己的网页，但是也自己写一个cgi程序来解释；Tinyhttpd里面的cgi脚本是用Perl脚本写的，你其实也可以用c来写的，明白原理就能够写的。在html里面指定了action，即cgi程序。
+首先就是服务器的理解：运行服务器程序，是一个数据库；比如Tinyhttpd里面及只有一个网页可以访问index.html;但是你同样可以在这个服务器中添加自己的网页，但是也自己写一个cgi程序来解释；Tinyhttpd里面的cgi脚本是用Perl脚本写的，你其实也可以用c来写的，明白原理就能够写的。在html里面指定了action，即cgi程序。同时也指定了method，即GET，POST等。
+
+客户端<---->服务器<---->cgi程序；在Tinyhttpd中，是在服务器程序中打开一个子进程，来exec相应的cgi程序。具体处理可查看Tinyhttpd的程序，以及印象笔记里面相关的blog。
 
 以下内容来自源作者:
 
